@@ -1,0 +1,41 @@
+body{
+    color: darkslategrey;
+}
+#main1{
+    background-color: khaki;
+    border: darkred ridge ;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+}
+#par{
+    color: rgb(6, 102, 49);
+}
+#main2{
+    background-color: khaki;
+    border: darkred ridge ;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    position:relative ;
+}
+#square{
+    height: 20px;
+    width: 20px;
+    background-color:rgb(90, 6, 69) ;
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+}
+.button{     
+    background-color: rgb(199, 188, 212);
+border: 1px solid black;
+border-radius: 3px;
+
+padding: 0px 5px;
+height: 20px;
+display: block;
+position: absolute;
+top: 450px;
+left:30px ;
+}

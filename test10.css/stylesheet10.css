@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+}
+#container{
+    width: 968px;
+    margin: 0px auto;
+}
+
+/*=======HEADER SECTION======*/
+
+.header{
+    background-color: rgb(73, 94, 73);
+    height: 80px;
+    width: 964px;
+    border: solid 2px black;
+    color: white;
+}
+
+/*=======NAVIGATION SECTION======*/
+#nav{
+    height: 40px;
+    width: 964px;
+    margin: 0px auto;
+    background-color: black;
+    font-weight: bold;
+    border: solid 2px black;
+}
+/*=======SIDEBAR SECTION======*/
+.sidebar{
+    float: left;
+    height: 1000px;
+    width: 176px;
+    background-color: rgb(166, 214, 194);
+    border-left: black 2px solid;
+    border-bottom: black 2px solid;
+    border-bottom-left-radius: 1em;
+}
+/*=======MAIN SECTION======*/
+.main{
+    float: left;
+    overflow: auto;
+
+    background-color: lightgray;
+    height: 1000px;
+    width: 786px;
+    border-right: black 2px solid;
+    border-bottom: black 2px solid;
+    border-left: black 2px solid;
+    color: white;
+
+    border-bottom-right-radius: 1em;
+
+}
+/*=======Mini content SECTION======*/
+#box{
+    padding: 10px;
+    margin: 12px;
+    background-color: rgb(51, 51, 51);
+    border: black 1px ridge;
+    border-radius: .8em;
+    width: 250px;
+}
+.test{
+    display: block; 
+    text-align: center;
+}
+img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media  (max-width: 600px)  {
+.sidebar{
+    display: none;
+}
+ #test1{
+     float: left;
+ } 
+ #box{
+     background-color: darkred;
+ }  
+}
+@media (max-width: 400px) {
+
+   #box{
+       background-color: darkgreen;
+   }  
+}

@@ -1,0 +1,113 @@
+.body{
+    background-color: rgb(138, 136, 136);
+
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  
+}
+.box1{
+    
+    background-color:rebeccapurple;
+    text-align: center;
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 12px;
+    padding: 12px;
+    flex-grow: 1;
+    border: cornsilk 2px solid;
+    border-radius: 6px;
+    
+
+}
+.box2{
+    background-color:rgb(51, 138, 153);
+    text-align: center;
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 12px;
+    padding: 12px;
+    border: cornsilk 2px solid;
+    border-radius: 6px;
+
+}
+.box3{
+    background-color:rgb(153, 51, 82);
+    text-align: center;
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 12px;
+    padding: 12px;
+    border: cornsilk 2px solid;
+    border-radius: 6px;
+
+}
+
+.linebreak{
+    background-color:rgb(14, 15, 14);
+    height:2px ;
+    flex-basis: 100%;
+}
+.box4{
+    background-color:rgb(169, 184, 105);
+    text-align: center;
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 12px;
+    padding: 12px;
+    border: cornsilk 2px solid;
+    border-radius: 6px;
+
+}
+.box5{
+    background-color:rgb(231, 121, 57);
+    text-align: center;
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 12px;
+    padding: 12px;
+    border: cornsilk 2px solid;
+    border-radius: 6px;
+    flex-grow: 2;
+
+}
+.linebreak2{
+    background-color:rgb(14, 15, 14);
+    height:2px ;
+    flex-basis: 100%;
+}
+.box6{
+    background-color:rgb(100, 46, 97);
+    text-align: center;
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 12px;
+    padding: 12px;
+    border: cornsilk 2px solid;
+    border-radius: 6px;
+    flex-grow: 2;
+
+}
+.box7{
+    background-color:rgb(61, 41, 109);
+    text-align: center;
+    color: white;
+    height: 100px;
+    width: 100px;
+    margin: 12px;
+    padding: 12px;
+    border: cornsilk 2px solid;
+    border-radius: 6px;
+    flex-grow: 2;
+
+}

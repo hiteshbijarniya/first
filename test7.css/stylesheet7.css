@@ -1,0 +1,34 @@
+#theform{
+    color: rgb(20, 16, 16);
+    background-color: rgb(169, 185, 216);
+    border: black 2px ridge;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.row{
+    display: table-row;
+}
+.row label{
+    display: table-cell;
+}
+.row input{
+    display: table-cell;
+    padding: 2px;
+}
+p.forsubmit{
+    align:center;
+    padding-left: 700px;
+}
+
+.button{
+    color: brown;
+    background-color: darkgrey;
+    border: black 2px solid;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+a:hover{
+    background-color: grey;
+}

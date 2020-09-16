@@ -1,0 +1,85 @@
+
+p.para1{
+    color: violet;
+    background-color: black;
+    position: fixed;
+    
+    top: 10px;
+    left: 20px;
+
+}
+p.para2{
+color: tomato;
+    background-color: black;
+    position: absolute;
+    
+    top: 30px;
+    left: 20px;
+
+}
+p.para3{
+    color: tomato;
+    background-color: black;
+    position: absolute;
+    
+    top: 50px;
+    left: 20px;
+
+}
+p.para4{
+    color: tomato;
+    background-color: black;
+    position: absolute;
+    
+    top: 70px;
+    left: 20px;
+
+}
+p.para5{
+    color: tomato;
+    background-color: black;
+    position: absolute;
+    
+    top: 90px;
+    left: 20px;
+
+}
+p.para6{
+    color: tomato;
+    background-color: black;
+    position: absolute;
+    
+    top: 110px;
+    left: 20px;
+
+}
+#divmain{
+    color: tomato;
+    background-color: black;
+    position: absolute;
+    border-radius: 5px;
+    border: red solid;
+}
+#divmains{
+    color: tomato;
+    background-color: black;
+    position: absolute;
+}
+    .button{     
+    background-color: rgb(199, 188, 212);
+border: 1px solid black;
+border-radius: 3px;
+position: absolute;
+padding: 0px 5px;
+height: 20px;
+display: block;
+    top: 150px;
+    left: 20px;
+}
+a {
+    color: mediumblue;
+}
+a:hover{
+    color: rgb(230, 25, 161);
+    cursor: help;
+}

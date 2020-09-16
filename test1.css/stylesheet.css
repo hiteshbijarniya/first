@@ -1,0 +1,65 @@
+body{
+    padding: 2px black ridge;
+margin: 10px;
+
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+p.paragraph{
+    color: black;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    padding: 10px 10px 10px ;
+    border:rgb(69, 16, 214) 3px ;
+    border-style: double;
+    border-radius: 2px;
+    
+}
+img.image{
+    background-color: darkseagreen;
+    text-align: center;
+    image-orientation: initial;
+}
+p.para3{
+    color: black;
+    font-size:20px ;
+    padding: 10px;
+    margin: 10px 200px ;
+    border: brown 2px ridge;
+}
+p.para4{
+    color: black;
+    font-size:20px ;
+    padding: 10px;
+    margin: 20px 200px 0px 100px;
+    border: darkgreen 2px ridge;
+}
+#divmain{
+    color: black;
+}
+#divbas
+{
+    color: black;
+}
+.highlight{
+    background-color: lawngreen;
+}
+
+a: link{
+    color:blue;
+}
+a :visited{
+    color: mediumblue;
+}
+a:hover{
+    color: mediumturquoise;
+}
+img.special{
+    padding: 15px;
+    display: block;
+    border: black 3px ridge;
+}

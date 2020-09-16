@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(238, 224, 34, 0.479);
+    height: 2em;
+width: 100%;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+ 
+}
+li a{
+    color:white;
+    background-color: rgb(74, 119, 74);
+    display: block;
+    width: 90px;
+    text-decoration: none;
+    margin: 7px;
+    padding: 10px;
+    border: orangered solid 2px;
+    border-radius: 3px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+}
+li a:hover{
+    background-color: black;
+    position: relative;
+    top: 3px;
+}

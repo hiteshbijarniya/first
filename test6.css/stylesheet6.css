@@ -1,0 +1,24 @@
+.button{     
+    background-color: grey;
+border: 1px solid black;
+border-radius: 3px;
+font: 700 10px helvetica;
+text-align: center;
+padding: 10px;
+
+margin-right: 20px;
+box-sizing: border-box;
+
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+    float: left;
+}
+a:hover{
+    background-color:darkgray;
+}

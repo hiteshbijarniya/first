@@ -1,0 +1,118 @@
+ .container-grid{
+     display: grid;
+    /* grid-template-columns: auto auto auto;*/
+    grid-template-columns: repeat(5,1fr);
+     grid-gap: 12px;
+    /* grid-template-rows: 100px 100px 100px 100px 100px 100px;*/
+    grid-auto-rows:  100px;;
+ }
+ .nestegrid{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+    grid-gap: 12px;
+   grid-auto-rows:  150px;
+   padding: 10px;
+}
+img{
+    border: 1px ridge rgb(202, 195, 195);
+    border-radius: 2px;
+    height: 100%;
+    width: 100%;
+}
+ .section1{
+    grid-row:1 ;
+    grid-column: 1;
+    background-color: blue;
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+ .section2{
+     grid-row:1 ;
+     grid-column: 2;
+     background-color: rgb(221, 70, 176);
+     font-size: 20px;
+     text-align: center;
+     color: blanchedalmond;
+ }
+ .section3{
+    grid-row:1 ;
+    grid-column: 3;
+    background-color: rgb(94, 191, 221);
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.section4{
+    grid-row:2 ;
+    grid-column: 1;
+    background-color: rgb(108, 209, 95);
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.section5{
+    grid-row:2 ;
+    grid-column: 2;
+    background-color: rgb(105, 48, 143);
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.section6{
+    grid-row:2 ;
+    grid-column: 3;
+    background-color: rgb(129, 63, 46);
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.section7{
+    grid-row:3 ;
+    grid-column: 1;
+    background-color: rgb(81, 99, 78);
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.section8{
+    grid-row:3 ;
+    grid-column: 2;
+    background-color: rgb(23, 92, 14);
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.section9{
+    grid-row:3 ;
+    grid-column: 3;
+    background-color: rgb(122, 99, 100);
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.section10{
+    grid-row:4/6 ;
+    grid-column: 1/4;
+    background-color: rgb(108, 209, 95);
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.section11{
+    grid-row:6/8 ;
+    grid-column: 1/4;
+    background-color: darkred;
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.section12{
+    grid-row:1/8 ;
+    grid-column: 4/6;
+    background-color: rgb(43, 17, 17);
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+

@@ -1,0 +1,32 @@
+#nav{
+    background-color: rgb(12, 78, 41);
+    font-size:25px ;
+    font-family: fantasy;
+    font-weight: bold;
+    color: white;
+}
+#nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+#nav li{
+    color: white;
+    display: inline;
+    glyph-orientation-vertical: middle;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+}
+#nav a{
+    color: white;
+    text-decoration: none ;
+    padding: 8px 8px 8px 8px;
+}
+#nav a:hover{
+    background-color: black;
+
+}

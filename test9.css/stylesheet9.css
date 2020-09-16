@@ -1,0 +1,139 @@
+
+ /*============= LAYOUT SECTION ===========*/
+body{
+    background-color: rgb(158, 157, 157);
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+#header{
+    background-color: rgb(112, 112, 112);
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    height: 100px;
+    border-radius: 6px;
+}
+#navbar ul{
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+
+    border-radius: 6px;
+}
+#navbar ul li{
+    
+    display: inline;
+
+}
+#navbar ul li a{
+
+    background-color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: .1em 1em;
+}
+#navbar ul li a:hover{
+    color: black;
+background-color: white;
+}
+
+.main{
+    background-color: rgb(234, 235, 231);
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    margin-right: 330px;
+    padding: 5px;
+    padding-left: 15px; ;
+    border-radius: 6px;
+}
+.sideright{
+    background-color: rgb(234, 235, 231);
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    float: right;
+    width: 270px;
+    border-radius: 5px;
+    clear: right;
+}
+.imagesidebar{
+    width: 290px;
+    float: right;
+    border-radius: 5px;
+    margin:10px; margin-top: 0px;
+    clear: right;
+    opacity: 1.0;
+    transition: opacity 3.5s ease-in-out;
+}
+.imagesidebar:hover{
+    opacity: 0.3;
+}
+#footer{
+    background-color: rgb(112, 112, 112);
+    margin: 10px;
+    clear: both;
+    border-radius: 6px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+#footer ul{
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    background-color:rgb(112, 112, 112) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+
+    border-radius: 6px;
+}
+
+#footer ul li {
+display: inline;
+}
+
+#footer ul li a{
+background-color:rgb(112, 112, 112);
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+padding: .1em 1em;
+}
+#footer ul li a:hover{
+    color:rgb(112, 112, 112);
+background-color: white;
+}
+
+ /*============= HEADINGS SECTION ===========*/
+h1{
+    font-size: 25px;
+    color: darkred;
+}
+h2{
+    font-size: 20px;
+    color: darkred;
+}
+h3{
+    font-size: 20px;
+    color:darkslategrey;
+}
+h4{
+    font-size: 25px;
+    color: rgb(31, 28, 28);
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 50%;|
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform:translateY(-50%);
+}
